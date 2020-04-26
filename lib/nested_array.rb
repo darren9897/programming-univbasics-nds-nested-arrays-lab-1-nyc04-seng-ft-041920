@@ -137,9 +137,9 @@ def matrix_update(matrix, row, column, new_value)
 #   "Eggplant"
 # ]]
 
-#   produce_storage[row][column] = new_value
+  matrix[row][column] = new_value
   
-  return produce_storage
+  return matrix
   
   
   
